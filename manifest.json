@@ -1,0 +1,15 @@
+{
+    "name": "TechGama Adblocker",
+    "version": "1.0",
+    "description": "TechGama Adblocker for blocking ads",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/TechGama.png",
+        "48": "icons/TechGama.png",
+        "128": "icons/TechGama.png"
+    },
+    "manifest_version": 2
+}
